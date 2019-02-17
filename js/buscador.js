@@ -2,7 +2,8 @@ window.onload=function(){
 	controlador();
 };
 
-var urlBuscadorCategorias= "http://localhost:3000/categorias";
+//var urlBuscadorCategorias= "http://localhost:3000/categorias";
+var urlBuscadorCategorias= "https://my-json-server.typicode.com/SergioPalancas/buscadorGatos/categorias";
 var urlGatos= "https://api.thecatapi.com/v1/images/search?limit=8";
 var ulrLimit="https://api.thecatapi.com/v1/images/search?limit=40";
 
